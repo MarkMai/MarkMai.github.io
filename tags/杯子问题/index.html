@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  
+  <title>Tag: 杯子问题 | Mark&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+    <meta name="author" content="Mark">
+  
+  
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mark's Blog">
+<meta property="og:url" content="http://yoursite.com/tags/杯子问题/">
+<meta property="og:site_name" content="Mark's Blog">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mark's Blog">
+<meta name="twitter:description">
+
+  
+    <link rel="alternate" href="/atom.xml" title="Mark&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header">
+  <div class="title">
+    <h1><a href="/">Mark&#39;s Blog</a></h1>
+    <p><a href="/">Mark</a></p>
+  </div>
+  <nav class="nav">
+    <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+        <li><a href="/reading">Reading</a></li>
+      
+        <li><a href="/about">About</a></li>
+      
+      
+        <li><a href="/atom.xml">RSS</a></li>
+      
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+  <div class="clearfix"></div>
+</header>
+    <div class="content">
+
+
+<h2 class="archives-title tag"><span>杯子问题</span></h2>
+
+
+
+  
+    <article class="post">
+  <header>
+    
+      <div class="icon"></div>
+      <a href="/2014/12/12/100层楼两个杯子找临碎点/">
+  <time datetime="2014-12-12T12:43:03.000Z">
+    Dec 12 2014
+  </time>
+</a>
+    
+    
+  
+    <h1 class="title"><a href="/2014/12/12/100层楼两个杯子找临碎点/">100层楼两个杯子找临碎点</a></h1>
+  
+
+  </header>
+  
+  <div class="entry">
+    
+      <p>首先，我们以10为区间，则得出（1,10）（11,20）（21,30）（31,40）（41,50）（51，60）（61,70）（71,80）（81,90）（91,100）则最大的需要20次，具体的方法是：先从10层摔下，若不碎，则从第二十层再摔，如此内推，我们可以找到一个临界区间，如（51,60），我们再从51开始，一层一层的往下摔，摔碎的那一点是临界点，则这样平均少于20次。  </p>
+<p>通过这个方法，我们可以知道，平均次数少于20次，则最优的结果毕竟是不会超过20次的。我们做这样的考虑，每一次比较，我们都让这一次比较的次数抵消掉前一次比较过的次数，亦即区间的范围逐渐减小，如（1,10）（11,19）（20,27）…（54,55）56 57 …. 100，这到了第56以后就不能保证该次比较的次数抵消掉上一次比较过的次数，这不成立，我们接着用12,13比较也不行，当我们用14时，我们可以得出范围为（1,14）（15，27）（28,39）… （96,99）100，则可以得出少于14次。</p>
+
+    
+  </div>
+  <footer class="end-sep">
+    
+      
+      
+    
+    <div class="clearfix"></div>
+  </footer>
+</article>
+
+
+  
+
+  <nav id="pagination">
+  
+  
+  <div class="clearfix"></div>
+</nav>
+
+</div>
+  </div>
+  <footer id="footer"><div class="copyright">
+  
+  &copy; 2014 <a href="/">Mark</a>
+  
+</div>
+<div class="theme-copyright">
+  Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a>
+   | 
+  Redesign by <a href="http://heroicyang.com/" target="_blank">Heroic Yang</a>
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="/js/scale.fix.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+  (function($){
+    $('.fancybox').fancybox();
+  })(jQuery);
+</script>
+
+</body>
+</html>
